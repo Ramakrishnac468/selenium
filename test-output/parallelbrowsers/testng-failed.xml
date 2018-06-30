@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [ParallelBrowsers]" parallel="tests">
+  <test name="firefoxtest(failed)" parallel="tests">
+    <parameter name="password" value="ram.krishna"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="username" value="pqrs9747@gmail.com"/>
+    <classes>
+      <class name="testngg.Parallel_Browsers">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testngg.Parallel_Browsers -->
+    </classes>
+  </test> <!-- firefoxtest(failed) -->
+  <test name="chrometest(failed)" parallel="tests">
+    <parameter name="password" value="ram.krishna"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="username" value="pqrs9747@gmail.com"/>
+    <classes>
+      <class name="testngg.Parallel_Browsers">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testngg.Parallel_Browsers -->
+    </classes>
+  </test> <!-- chrometest(failed) -->
+</suite> <!-- Failed suite [ParallelBrowsers] -->

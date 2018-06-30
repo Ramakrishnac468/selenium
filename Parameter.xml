@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ParameterSuite">
+
+<test name="ParameterTest">
+
+<parameter name="username" value="pqrs9747@gmail.com"/>
+<parameter name="password" value="ram.krishna@"/>
+
+<classes>
+
+<class name="testngg.ParametersXml"/>
+
+</classes>
+
+</test>
+
+</suite>
